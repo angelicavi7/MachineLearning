@@ -1,0 +1,13 @@
+Tipos de Machine Learning
+
+Conocer los tipos de Machine Learning es importante pues ayuda a hacer un mejor trabajo al desarrollar algoritmos. Cuando se tiene un objetivo y se conocen las formas de aplicar Machine Learning, el resultado puede ser mucho mejor en la medida pues es posible aplicar de mejor manera los algoritmos.
+
+De acuerdo con su propósito, los tipos de Machine Learning pueden ser clasificados en cuatro categorías: 
+
+-Aprendizaje supervisado: modela las relaciones y dependencias entre las variables input y el output de la predicción. En el aprendizaje supervisado se entrena el algoritmo y se escoge el proceso que describe el input, el problema es que “escoger” puede llevar que el modelo sea parcial dado lo que la mano humana le dijo que “aprender”. Algunos ejemplos de este tipo de aprendizaje son: regresión lineal, redes neuronales, Support Vector Machine, …
+
+-Aprendizaje no supervisado: es el mejor a usar cuando el analista no sabe con seguridad qué hacer con los datos. En este caso, los algoritmos usan técnicas en los datos para identificar reglas, detectar patrones, resumir y agrupar los datos lo que permite tener una visión más significativa de los datos. Un ejemplo de este tipo de aprendizaje es: k-means clustering.
+
+-Aprendizaje semi-supervisado: este método no usa labels, sin embargo, explota la idea de que, aunque los grupos de datos son desconocidos contienen información importante sobre los parámetros agrupados.
+
+-Aprendizaje reforzado: este método busca aprender constantemente del entorno de forma iterativa. De este modo, en cada iteración puede aplicar los aprendido para maximizar el modelo de manera constante hasta explorar un amplio rango de estados posibles. Algunos ejemplos de este tipo de aprendizaje son: Q-Learning, Temporal Difference, Deep Adversarial Networks, …
