@@ -1,0 +1,15 @@
+Write at least 300 words explaining the types of decision trees algorithms and applications.
+
+There are a wide range of data mining techniques, one of them is a decision tree. A decision tree is a model that resembles the structure of a tree. It is a learning technique for classification and regression, and it consist a model of decisions and their possible consequences. It can include the chance of outcomes, resource cost and utility. Decisions trees are used in operations research to identifies strategies to reach a goal.
+
+There are two main types of decisions trees. Classification trees that are used when the predicted outcome is the class to which the data belongs, so the outcome is discrete; and the regression trees, used when the predicted outcome can be considered a real number.
+
+The basic construction of a tree consists in three steps: tree growing, tree pruning and tree selection. Several statistical algorithms decisions trees are available, but the most used are the following:
+
+-CART: used for categorical and continuous dependent and input variables. The nodes split binary and on linear combinations.
+-C4.5: used for categorical and continuous dependent and input variables. The node splits can be multiple.
+-CHAID: used for categorical dependent and categorical and continuous input variables. The node splits can be multiple.
+-QUEST: used for categorical dependent and categorical and continuous input variables. The nodes split binary and on linear combinations.
+
+As a decision tree can classify data accurately and make effective decisions, it has been applied to many fields. In business management the trees have been used to enhance customer services and fraud detection. In engineering have been widely used in energy consumption and fault diagnosis. In health-care management, there are models developed to explore medical history of developmentally-delayed children and to predict the survivability of breast cancer patients.
+
