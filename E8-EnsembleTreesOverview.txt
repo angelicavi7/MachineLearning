@@ -1,0 +1,15 @@
+Why ensemble is a successful strategy in machine learning.
+
+The principle of ensembles in machine learning is that when putting together various weak learners, we can form one strong learner that can achieve a better decision. This principle is important as we use it daily, often we ask for opinions of experts before deciding, for example, we read review before we make a purchase or ask opinions to more than one doctor before a medical procedure.
+Ensemble methods is technic used in machine learning that consists in combining several base models to produce one optimal predictive model, one that decrease the variance (bagging), the bias (boosting) and improve predictions (stacking). The key point to increase accuracy with ensembles is to diversify the single models, this way each model has a different error, and when the combination is made the total error will decrease
+
+Benefits of using ensemble base systems include:
+
+-Useful when dealing with too much data and with too little data. When we have too much data it can be difficult to analyze it with a single classifier, but if we slice it and then ensemble it, we can probably have better results. When the problem is we don not have much data, method like bootstrap sample allow us to train different classifiers and improve the model.
+
+-Useful when we have a complex decision boundary, each model will divide the data into smaller and easier-to-learn partitions, and when the models combine the complex boundary can be describe better by said combination. 
+
+-Useful when there are different sources for the data, and the heterogeneous information cannot be used all together to train a single classifier. In this case an ensemble of classifiers can be used (Parikh 2007), where a separate classifier is trained on each of the feature sets independently.
+
+In 2000, Dietterich lists three primary reasons for using an ensemble-based system: i) statistical; ii) computational; and iii) representational. The statistical reason is related to lack of adequate data to properly represent the data distribution; the computational reason is the model selection problem, where among many models that can solve a given problem, which one we should choose. Finally, the representational reason is to address to cases when the chosen model cannot properly represent the sought decision boundary, which is discussed under divide and conquer section above.
+Source: http://www.scholarpedia.org/article/Ensemble_learning
