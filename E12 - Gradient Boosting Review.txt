@@ -1,0 +1,12 @@
+Search for and comment about the main differences between the algorithms implemented in: Gradient Boosting Classifier and XGB Classifier.
+
+In Gradient Boosting, we want to take the boosting problem as an optimization problem, this idea was first developed by Leo Breiman. 
+
+This means we take a loss function and try to optimize it: we take a weak learner and then add another weak learner to build a stronger learner. This reduces the loss from the loss function. We iteratively add each model and compute the loss. The loss represents the error residuals (the difference between actual value and predicted value) and using this loss value the predictions are updated to minimize the residuals
+
+In contrast, we have XGBoost that is similar to Gradient Boosting, but it has some added features: 
+- Penalization of Trees and a proportional shrinking of leaf nodes: trees can have varying number of terminal nodes and left weights that are calculated with less evidence is shrunk more heavily.
+- Newton Boosting: provides a direct route to the minimum
+- Extra Randomization Parameter: helps to reduce correlation between the trees.
+
+Source: https://hackernoon.com/gradient-boosting-and-xgboost-90862daa6c77
