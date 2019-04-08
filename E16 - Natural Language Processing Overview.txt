@@ -1,0 +1,6 @@
+# E14 - Natural Language Processing Overview
+
+Research for a commercial product which uses NLP as a core(E.g. google assistant) and describes, in general words, which NLP techniques it uses.
+
+LenddoEFL is a software that claims to help banks and financial institutions assess an individual's creditwothiness using NLP and machine learning. The software, based on digital footprints of the individuals, helps banks to understand lending risks and offer loans and credit services.
+LenddoEFL can be downloaded to the individual smartphones and the software uses NLP to comb though the digital media, such as internet browsing history, geolocation data and other information. 
